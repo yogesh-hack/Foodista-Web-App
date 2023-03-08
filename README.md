@@ -1,3 +1,10 @@
+# Foodista 
+*Online Delivery Food Web App*
+
+# Preview App
+![screencapture-localhost-3000-2023-03-08-17_12_05](https://user-images.githubusercontent.com/83384315/223704609-f3edaa69-e84e-4dd2-85c8-c27580f7ef26.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
