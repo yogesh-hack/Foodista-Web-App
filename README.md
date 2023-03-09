@@ -3,7 +3,8 @@
 
 # Preview App
 
-![screencapture-localhost-3000-2023-03-08-17_12_05](https://user-images.githubusercontent.com/83384315/223704609-f3edaa69-e84e-4dd2-85c8-c27580f7ef26.png)
+![screencapture-localhost-3000-2023-03-09-06_40_01](https://user-images.githubusercontent.com/83384315/223889143-206a88f8-e9b7-418f-b4eb-a11b9f72f62a.png)
+
 
 **See video at end**
 
