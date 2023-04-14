@@ -15,7 +15,7 @@ const ProductsDetails = () => {
     // console.log(params)
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/product/${params._id}`)
+        fetch(`https://foodista-api.vercel.app/api/product/${params._id}`)
             .then(res => res.json())
             .then(product => {
                 // console.log(product)
