@@ -53,7 +53,7 @@ const Navigation = (props) => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:8080/api/product?apiKey=${API_KEY}`, options)
+        fetch(`https://foodista-api.vercel.app/api/product?apiKey=${API_KEY}`, options)
             .then(response => response.json())
             .then(products => {
                 setPoducts(products)
