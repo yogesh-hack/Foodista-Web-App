@@ -21,7 +21,7 @@ const Products = () => {
 
   useEffect(() => {
     // console.log(loading)
-    fetch(`http://localhost:8080/api/product?page=${currentPage}&pageSize=${pageSize}&apiKey=${API_KEY}`, options)
+    fetch(`https://foodista-api.vercel.app/api/product?page=${currentPage}&pageSize=${pageSize}&apiKey=${API_KEY}`, options)
       .then(response => response.json())
       .then(products => {
         // console.log(products.southIndian[0]._id);
