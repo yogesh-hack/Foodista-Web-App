@@ -1,4 +1,4 @@
-const Comments = ({heading,comment,footer}) => {
+const Comments = ({heading,comment,footer,name,date}) => {
     return (
         <>
 
@@ -6,7 +6,7 @@ const Comments = ({heading,comment,footer}) => {
                 <div class="flex items-center mb-4 space-x-4 text-black">
                     <img class="w-10 h-10 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="user" />
                     <div class="space-y-1 font-medium text-black">
-                        <p>Jese Leos <time datetime="2014-08-16 19:00" class="block text-sm text-gray-500">on August 2014</time></p>
+                        <p>{name}<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500">on {date}</time></p>
                     </div>
                 </div>
                 <div class="flex items-center mb-1">
